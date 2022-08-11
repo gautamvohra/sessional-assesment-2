@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="navigation">
+        <div class="nav-container">
+            <div class="brand">
+                <a href="#!">Blogger Spot</a>
+            </div>
+            <nav>
+                <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
+                    <li>
+                        <a href="#!">Home</a>
+                    </li>
+                    <li>
+                        <a href="#!" onclick="page1()">My Blogs</a>
+                    </li>
+                    <li>
+                    </li>
+                    <li>
+                        <a href="#!">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#!">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <main>
+        <div id="blogs">
+            <div id="blog">
+                <div id="blogtit">Click on "My Blogs" to view blogs on the navbar</div>
+                <div>&nbsp</div>
+                <div>&nbsp</div>
+                <div>&nbsp</div>
+                <div>&nbsp</div>
+                <div id="blogtit">Click on page numbers to go on different pages</div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><button onclick="page1()"><<</button></li>
+            <li><button onclick="pageprev()"><</button> </li>
+            <li><button onclick="page1()">1</button></li>
+            <li><button onclick="page2()">2</button> </li>
+            <li><button onclick="page3()">3</button> </li>
+            <li><button onclick="page4()">4</button></li>
+            <li><button onclick="page5()">5</button></li>
+            <li><button onclick="page6()">6</button></li>
+            <li><button onclick="page7()">7</button></li>
+            <li><button onclick="page8()">8</button></li>
+            <li><button onclick="page9()">9</button></li>
+            <li><button onclick="page10()">10</button></li>
+            <li><button onclick="pagenext()">></button></li>
+            <li><button onclick="page10()">>></button></li>
+        </ul>
+        <!-- <div></div> -->
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
